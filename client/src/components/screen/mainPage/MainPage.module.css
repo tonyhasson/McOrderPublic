@@ -1,0 +1,127 @@
+.main {
+  z-index: 100;
+  margin-top: 6.5rem;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.content {
+  height: 12rem;
+  width: 50rem;
+}
+
+.headline {
+  text-align: center;
+  color: white;
+  animation: 1s fadeUp forwards ease-in-out;
+}
+
+.subheadline {
+  text-align: center;
+  color: rgb(195, 195, 195);
+  animation: 1s fadeUp forwards ease-in-out;
+}
+
+.feedBack {
+  min-width: 22rem;
+  margin: 2rem auto;
+  text-align: center;
+  color: rgb(66 249 228);
+  animation: 1s fadeUp forwards ease-in-out;
+}
+
+.micFirst {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 16rem !important;
+  height: 16rem !important;
+  margin: 0% auto;
+  color: #125331;
+  background-color: white;
+  border-radius: 50%;
+  padding: 2rem;
+  box-shadow: inset 0 0 20px rgba(204, 204, 204, 0.854),
+    0 2px 8px rgba(0, 0, 0, 0.25);
+  animation: 0.8s fadeIn forwards ease-in-out;
+  cursor: pointer;
+}
+
+.mic {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 16rem !important;
+  height: 16rem !important;
+  margin: 0% auto;
+  background-color: white;
+  /* color: #3f7de0; */
+  color: #125331;
+  border-radius: 50%;
+  padding: 2rem;
+  box-shadow: inset 0 0 15px rgba(147, 147, 147, 0.854),
+    0 2px 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.mic.active {
+  color: white;
+  background-color: brown;
+  animation: 0.2s clicked forwards ease-in-out;
+  cursor: pointer;
+}
+
+.main.disappear {
+  animation: 0.2s disappear forwards ease-in-out;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(-0.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes clicked {
+  0% {
+    scale: 0.95;
+  }
+
+  50% {
+    scale: 1.05;
+  }
+
+  100% {
+    scale: 1;
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  width: 60rem;
+  height: 5rem;
+}
+
+.word {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.397);
+  width: 142rem;
+  animation: move-right-to-left 28s linear infinite;
+}
+
+.noword {
+  opacity: 0;
+}
+
+@keyframes move-right-to-left {
+  0% {
+    transform: translateX(70rem);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-142rem);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,142 @@
+.cartMain {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60rem;
+    height: 45rem;
+    background-color: rgb(1, 1, 20);
+    box-shadow: inset 0 0 30px rgba(191, 191, 191, 0.26);
+    animation: 1.3s appear forwards ease-in-out;
+}
+
+.itemsList {
+    margin: 0;
+    color: white;
+    background-color: rgb(1, 1, 20);
+}
+
+.itemsList {
+    margin: 0;
+    padding: 0;
+    width: 60rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.noItemsList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60rem;
+    height: 35.5rem;
+    background-color: rgb(1, 1, 20);
+    box-shadow: inset 0 0 30px rgba(191, 191, 191, 0.26);
+    animation: 1.3s appear forwards ease-in-out;
+}
+
+.noItemsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 11rem;
+}
+
+.noItems {
+    font-size: 3rem;
+    font-family: McFont;
+}
+
+.noItemsDesc {
+    font-size: 1.5rem;
+    font-family: McFont;
+}
+
+.ThankYou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    font-size: 3rem;
+    animation: 0.8s slideUp forwards ease-in-out;
+}
+
+.ThankYou>h4 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.ThankYouTitle {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    font-family: McFont;
+}
+
+.ThankYouDesc {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+    font-family: McFont;
+}
+
+.doneIcon {
+    color: #125331;
+    scale: 4;
+    background-color: white;
+    border-radius: 50%;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes clicked {
+    0% {
+        scale: 0.95;
+    }
+
+    50% {
+        scale: 1.05;
+    }
+
+    100% {
+        scale: 1;
+    }
+
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(3rem);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(-1rem);
+    }
+
+    75% {
+        transform: translateY(0.5rem);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

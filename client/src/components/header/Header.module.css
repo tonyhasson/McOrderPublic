@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3% 2%;
+    font-family: McFont;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 8rem;
+    width: 8rem;
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 5rem;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #125331;
+    width: 100%;
+    transform: translate(3rem, 0);
+    margin: 1rem 0;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.button {
+    background: #125331;
+    border: none;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.buttonActive {
+    background: white;
+    border: none;
+    color: black;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.player {
+    display: none;
+}

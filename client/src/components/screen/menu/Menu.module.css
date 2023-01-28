@@ -1,0 +1,50 @@
+.menuBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60rem;
+    height: 40rem;
+    overflow-y: scroll;
+}
+
+.menuMain {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 55rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    animation: 1.3s appear forwards ease-in-out;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes clicked {
+    0% {
+        scale: 0.95;
+    }
+
+    50% {
+        scale: 1.05;
+    }
+
+    100% {
+        scale: 1;
+    }
+
+}

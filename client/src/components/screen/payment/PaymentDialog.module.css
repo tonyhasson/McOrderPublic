@@ -1,0 +1,9 @@
+.totalPaymentAmount {
+    text-align: center;
+}
+
+.orderItem {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+}

@@ -1,0 +1,49 @@
+.cartSum {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    box-shadow: inset 0 0 40px rgb(177 177 177 / 26%);
+    color: white;
+    width: 60rem;
+    height: 5rem;
+    animation: 1.3s appear forwards ease-in-out;
+    padding: 1rem;
+}
+
+.totalSum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.titleTotalSum h1 {
+    font-family: McFont;
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 0 1rem;
+}
+
+
+.total {
+    font-family: McFont;
+    font-size: 2.2rem;
+    width: 12rem;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

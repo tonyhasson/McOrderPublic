@@ -1,0 +1,41 @@
+.containerBox {
+    width: 60rem;
+    height: 45rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 3%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgb(83, 83, 83);
+    overflow: hidden;
+}
+
+.MainPage {
+    position: absolute;
+    height: 45rem;
+}
+
+.cart {
+    width: 60rem;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.fullScreen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.7rem;
+    color: #282521;
+    font-size: 0.8rem;
+}
