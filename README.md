@@ -1,6 +1,6 @@
 # What is McOrder:
 
-McOrder is a smart voice recognition system built as a school project, which ment to simulate a voice activated McDonald's drive thru. It is based on a copied database of McDonald's and Google's DialogFlow system. 
+McOrder is a smart voice recognition system built as a school project, which meant to simulate a voice activated McDonald's drive thru. It is based on a copied database of McDonald's and Google's DialogFlow system. 
 
 # How to activate:
 
